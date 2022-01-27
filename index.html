@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+
+  <body>
+    <header class="header">
+      <nav>
+        <a href="" class="logo">Logo</a>
+        <i class="fas fa-bars menu-bar" onclick="showmenu()"></i>
+        <div class="nav-link" id="nav-link">
+          <i class="fa fa-times close-menu" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSES</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="text-box">
+        <h1>World`s Biggest University</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+          itaque<br />
+          earum sapiente voluptatum, soluta facilis necessitatibus a quisquam
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </header>
+    <!--Courses-->
+    <section class="courses">
+      <h1>Courses We Offers</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias earum
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermidiate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+            inventore odio qui. Vero earum recusandae ullam quas magni? Tempore,
+            error molestias non dolorum accusamus quos commodi. Mollitia aliquam
+            ut sapiente!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+            inventore odio qui. Vero earum recusandae ullam quas magni? Tempore,
+            error molestias non dolorum accusamus quos commodi. Mollitia aliquam
+            ut sapiente!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Grduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est
+            inventore odio qui. Vero earum recusandae ullam quas magni? Tempore,
+            error molestias non dolorum accusamus quos commodi. Mollitia aliquam
+            ut sapiente!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="campus">
+      <h2>Our Global Campus</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/campus1.jpg" alt="" />
+          <div class="layer">
+            <h3>Germany</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/campus2.jpg" alt="" />
+          <div class="layer">
+            <h3>Usa</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/campus3.jpg" alt="" />
+          <div class="layer">
+            <h3>London</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--facility-->
+    <section class="facilities">
+      <h2>Our Facility</h2>
+      <p>
+        Lorem ipsum dolor rum, dicta id, nihilinctio est mollitia tempora quas
+        <br />
+        vero quo modi blanditiis quae aut veritatis rerum non hic nobis ad!
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/facility 2.jpg" alt="" />
+          <h3>World class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque
+            laborum porro cum veniam quae sequi nihil corporis aliquam tempora.
+            Quis culpa .
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/facility1.jpg" alt="" />
+          <h3>World class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque
+            laborum porro cum veniam quae sequi nihil corporis aliquam tempora.
+            Quis culpa .
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/facility 3.jpg" alt="" />
+          <h3>World class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic neque
+            laborum porro cum veniam quae sequi nihil corporis aliquam tempora.
+            Quis culpa .
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var navlink = document.getElementById("nav-link");
+      function showmenu() {
+        navlink.style.right = "0";
+      }
+      function hidemenu() {
+        navlink.style.right = "-100%";
+      }
+    </script>
+  </body>
+</html>
